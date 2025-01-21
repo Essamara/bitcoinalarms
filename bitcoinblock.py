@@ -52,12 +52,8 @@ def main(url, sound_file, check_interval=10):
         time.sleep(check_interval)
 
 if __name__ == "__main__":
-    rpc_user = "user"  # Replace with your RPC username
-    rpc_password = "pass"  # Replace with your RPC password
-    rpc_port = 7788
-    url = f"http://{rpc_user}:{rpc_password}@127.0.0.1:{rpc_port}" # Updated URL
-
-    sound_file = "c:/ohyeah.wav" # Replace with your actual path
+    url = "https://nd-202-842-353.p2pify.com/788f110831fe13808302bd79796d55e8/"
+    sound_file = "C:\ohyeah.wav"  # Replace with actual path
     check_interval = 1
 
     main(url, sound_file, check_interval)
